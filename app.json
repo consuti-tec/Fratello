@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Fratello Sports",
+    "slug": "fratello-sports",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#071E4B"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#071E4B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/2f6a2716-7e98-4f63-aada-bc2f21c0654c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#071E4B"
+      },
+      "package": "com.sporti.fratello",
+      "permissions": []
+    },
+    "ios": {
+      "buildNumber": "1.0",
+      "bundleIdentifier": "com.sporti.fratello",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone if the user wants to record a video"
+      }
+    },
+    "main": "node_modules/expo/AppEntry.js",
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "1bd80648-4d50-4254-bca9-e38dbeac112e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
